@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giphy & Meteo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b4562df39.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body id="backgroundimg" >
+   
+
+        <div class="form-group">
+            <form action="" id="form">
+                <input type="text" class="form-control" id="inputCity" placeholder="Entrez une ville"
+                    autocomplete="off">
+
+
+                <button type="submit" class="btn-infobtn-block">
+
+                    Découvrir la météo
+                </button>
+
+
+
+            </form>
+        </div>
+
+
+        <div class="AllContainer">
+
+            <div class="container1">
+
+
+                <div class="box-container">
+
+                    <div id="city" class="box"></div>
+                    <div id="temps" class="box"></div>
+                    <div id="humidity" class="box"></div>
+                    <div id="wind" class="box"></div>
+
+                </div>
+
+            </div>
+
+            <div id="container2" class="container2">
+                <div id="logo"></div>
+            </div>
+        </div>
+
+    <script src="weather.js"></script>
+    <script src="giphy.js"></script>
+</body>
+
+</html>

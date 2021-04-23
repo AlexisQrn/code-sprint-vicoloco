@@ -1,0 +1,159 @@
+html{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+background-image: linear-gradient(315deg, rgb(105, 105, 105) 20%, rgb(29, 29, 29) 80% ); !*/
+}
+
+
+body{
+    margin: 0px;
+}
+
+.contText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: chocolate;
+}
+.subtitle{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.box{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: bisque;
+    transition: 1s;
+    font-family: 'Montserrat';
+
+}
+
+
+.box-container{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form-group{
+padding: 40px;
+
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* C'est l'input météo */
+.form-control{
+    height: 35px;
+    width: 400px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+
+}
+.btn-infobtn-block{
+    height: 40px;
+    width: 250px;
+    border: none;
+background-color: rgb(22, 115, 255);
+color: white;
+font-family: 'Roboto';
+margin-top: 20px;
+font-size: 15px;
+}
+
+.btn-infobtn-block:hover{
+    background-color: rgb(88, 154, 252);
+}
+
+#city{
+    background-color: blue;
+}
+
+#temps{
+    background-color: rgb(71, 71, 248);
+}
+#humidity{
+    background-color: rgb(136, 136, 255);
+}
+#wind{
+    background-color: rgb(176, 176, 252);
+}
+
+.inputCont{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+height: 40px;
+}
+
+
+.AllContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+   position: absolute;
+   top:30%;
+   right: 10%;
+}
+
+.container1{
+    background-color: rgb(54, 3, 54);
+   width: 50%;
+height: 100%;
+}
+
+
+
+.container2{
+    background-color: rgb(43, 43, 43);
+    height: 480px;
+    width: 50%;
+
+}
+
+#backgroundimg{
+    background-image: url('');
+    background-repeat:repeat;
+    background-position: cover;
+}
+
+#Logo{
+    background-image: url(img/logo.png);
+}
